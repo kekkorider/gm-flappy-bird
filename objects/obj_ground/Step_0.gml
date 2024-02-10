@@ -1,2 +1,2 @@
 if obj_bird.state == StateMain
-	x = (x - 1) % -48
+	x = (x - 1.5) % -48

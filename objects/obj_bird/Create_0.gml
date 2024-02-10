@@ -1,0 +1,1 @@
+object_set_sprite(obj_bird, choose(spr_bird_blue, spr_bird_red, spr_bird_yellow))

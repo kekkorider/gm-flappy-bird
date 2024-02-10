@@ -3,6 +3,5 @@ function StateMain() {
 
 	if _is_jumping v_speed = jump_speed
 
-	v_speed = min(v_speed + gravity_acceleration, terminal_velocity)
-	y += v_speed
+	AddGravity()
 }
