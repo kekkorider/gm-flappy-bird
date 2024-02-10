@@ -5,6 +5,7 @@ if x < obj_bird.x {
 		}
 		
 		triggers_score = false
+		audio_play_sound(sound_point, 0, 0)
 	}
 } else {
 	triggers_score = true

@@ -1,3 +1,5 @@
+flash = max(0, flash - 0.05)
+
 if obj_bird.state == StateDead
 	exit
 

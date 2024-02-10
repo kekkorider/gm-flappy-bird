@@ -3,9 +3,14 @@ pipes_gap = 90
 
 score = 0
 
+flash = 0
+
+// Set random background
 var _bg_layer_id = layer_get_id("Background")
 var _bg_id = layer_background_get_id(_bg_layer_id)
 layer_background_index(_bg_id, choose(0, 1))
+
+audio_set_master_gain(0, 0.1)
 
 for (var _i = 2; _i >= 0; _i--) {
 	var _x = room_width + pipes_distance * _i
