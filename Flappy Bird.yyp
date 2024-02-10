@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
+    {"id":{"name":"StatePrep","path":"scripts/StatePrep/StatePrep.yy",},},
     {"id":{"name":"_2","path":"sprites/_2/_2.yy",},},
     {"id":{"name":"sound_point","path":"sounds/sound_point/sound_point.yy",},},
     {"id":{"name":"_9","path":"sprites/_9/_9.yy",},},
@@ -68,6 +69,7 @@
     {"id":{"name":"pipe_red","path":"sprites/pipe_red/pipe_red.yy",},},
     {"id":{"name":"sound_die","path":"sounds/sound_die/sound_die.yy",},},
     {"id":{"name":"spr_bird_red","path":"sprites/spr_bird_red/spr_bird_red.yy",},},
+    {"id":{"name":"Jump","path":"scripts/Jump/Jump.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

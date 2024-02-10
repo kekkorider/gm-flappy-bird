@@ -1,6 +1,6 @@
 flash = max(0, flash - 0.05)
 
-if obj_bird.state == StateDead
+if obj_bird.state != StateMain
 	exit
 
 var _pipe_width = sprite_get_width(spr_pipe_green)
