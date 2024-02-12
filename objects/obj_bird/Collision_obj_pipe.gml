@@ -1,7 +1,9 @@
 if state != StateDead {
 	audio_play_sound(sound_hit, 0, 0)
 	
-	execute after 0.05 seconds
+	v_speed = jump_speed
+	
+	execute after 0.1 seconds
 		audio_play_sound(sound_die, 0, 0)
 	done
 	
