@@ -47,6 +47,7 @@
     {"id":{"name":"EaseMidSlow","path":"animcurves/EaseMidSlow/EaseMidSlow.yy",},},
     {"id":{"name":"spr_get_ready","path":"sprites/spr_get_ready/spr_get_ready.yy",},},
     {"id":{"name":"spr_bird_yellow","path":"sprites/spr_bird_yellow/spr_bird_yellow.yy",},},
+    {"id":{"name":"Tilt","path":"scripts/Tilt/Tilt.yy",},},
     {"id":{"name":"sound_swoosh","path":"sounds/sound_swoosh/sound_swoosh.yy",},},
     {"id":{"name":"TGMX_Documentation","path":"notes/TGMX_Documentation/TGMX_Documentation.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},

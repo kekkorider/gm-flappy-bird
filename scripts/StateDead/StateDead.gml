@@ -5,4 +5,6 @@ function StateDead() {
 	AddGravity()
 	
 	y = min(y, 400 - sprite_get_height(spr_bird_blue) * 0.5)
+	
+	Tilt()
 }
