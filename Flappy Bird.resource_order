@@ -52,6 +52,7 @@
     {"name":"muffel","order":3,"path":"scripts/muffel/muffel.yy",},
     {"name":"spr_title","order":28,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"sound_hit","order":1,"path":"sounds/sound_hit/sound_hit.yy",},
+    {"name":"DrawScore","order":7,"path":"scripts/DrawScore/DrawScore.yy",},
     {"name":"TGMX_1_EasyTweens","order":3,"path":"scripts/TGMX_1_EasyTweens/TGMX_1_EasyTweens.yy",},
     {"name":"spr_gameover","order":16,"path":"sprites/spr_gameover/spr_gameover.yy",},
     {"name":"EaseHeartbeat","order":1,"path":"animcurves/EaseHeartbeat/EaseHeartbeat.yy",},

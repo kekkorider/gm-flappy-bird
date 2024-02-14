@@ -2,8 +2,6 @@
 pipes_distance = 160
 pipes_gap = 90
 
-score = 0
-
 flash = 0
 
 spr_tap_alpha = 1

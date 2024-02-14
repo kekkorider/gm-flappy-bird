@@ -72,6 +72,7 @@
     {"id":{"name":"muffel","path":"scripts/muffel/muffel.yy",},},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
     {"id":{"name":"sound_hit","path":"sounds/sound_hit/sound_hit.yy",},},
+    {"id":{"name":"DrawScore","path":"scripts/DrawScore/DrawScore.yy",},},
     {"id":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},},
     {"id":{"name":"spr_numbers","path":"sprites/spr_numbers/spr_numbers.yy",},},
     {"id":{"name":"TGMX_1_EasyTweens","path":"scripts/TGMX_1_EasyTweens/TGMX_1_EasyTweens.yy",},},
