@@ -4,6 +4,9 @@ randomize()
 score = 0
 score_final = 0
 
+show_medal = false
+metal_subimg = 0
+
 pipes_distance = 160
 pipes_gap = 90
 

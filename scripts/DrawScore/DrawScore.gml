@@ -12,7 +12,7 @@ function DrawScore(_score, _x, _y, _scale = 1) {
 			draw_sprite_ext(spr_numbers, _temp_score mod 10, _x + _i * _w * _scale, _y, _scale, _scale, 0, c_white, 1)
 			_temp_score *= 0.1
 		}
-	} else {
+	} else if _temp_score == 0 {
 		draw_sprite_ext(spr_numbers, 0, _x, _y, _scale, _scale, 0, c_white, 1)
 	}
 }
