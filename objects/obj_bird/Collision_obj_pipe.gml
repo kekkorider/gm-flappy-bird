@@ -7,7 +7,5 @@ if state != StateDead {
 		audio_play_sound(sound_die, 0, 0)
 	done
 	
-	obj_game.flash = 1
+	Die()
 }
-
-state = StateDead

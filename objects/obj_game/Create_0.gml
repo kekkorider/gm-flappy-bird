@@ -1,4 +1,9 @@
+randomize()
+
 // Variables
+score = 0
+score_final = 0
+
 pipes_distance = 160
 pipes_gap = 90
 
@@ -7,6 +12,8 @@ flash = 0
 spr_tap_alpha = 1
 spr_title_alpha = 1
 spr_title_y = room_height * 0.25
+spr_gameover_y = sprite_get_height(spr_gameover) * -1
+spr_board_y = room_height * 1.5
 
 // Set random background
 var _bg_layer_id = layer_get_id("Background")
