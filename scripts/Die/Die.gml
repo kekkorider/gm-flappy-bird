@@ -3,11 +3,17 @@ function Die() {
 	
 	obj_game.flash = 1
 	
-	execute after 1 seconds
-		TweenFire(obj_game, "InOutSine", TWEEN_MODE_BOUNCE, true, 0, 0.2, "spr_gameover_y", 130, 120)
-		TweenFire(obj_game, "OutCubic", TWEEN_MODE_ONCE, true, 0, 0.95, "spr_board_y", room_height * 1.5, room_height * 0.45)
-		TweenFire(obj_game, "InOutCubic", TWEEN_MODE_ONCE, true, 0.5, 1.3, "score_final", 0, score)
-	done
+	TweenFire(obj_game, "InOutSine", TWEEN_MODE_BOUNCE, true, 1, 0.2, "spr_gameover_y", 130, 120)
+	TweenFire(obj_game, "OutCubic", TWEEN_MODE_ONCE, true, 1, 0.95, "spr_board_y", room_height * 1.5, room_height * 0.45)
+	TweenFire(obj_game, "InOutCubic", TWEEN_MODE_ONCE, true, 1.5, 1.3, "score_final", 0, score)
+	
+	with obj_game {
+		if (score > hi_score) {			
+			ini_open("data.ini")
+			ini_write_real("var", "score", score)
+			ini_close()
+		}
+	}
 	
 	execute after 2 seconds
 		with obj_game {

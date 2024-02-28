@@ -33,6 +33,7 @@
     {"name":"spr_bird_yellow","order":23,"path":"sprites/spr_bird_yellow/spr_bird_yellow.yy",},
     {"name":"Tilt","order":6,"path":"scripts/Tilt/Tilt.yy",},
     {"name":"sound_swoosh","order":3,"path":"sounds/sound_swoosh/sound_swoosh.yy",},
+    {"name":"spr_new_hiscore","order":37,"path":"sprites/spr_new_hiscore/spr_new_hiscore.yy",},
     {"name":"spr_background","order":10,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"TGMX_4_TweenState","order":6,"path":"scripts/TGMX_4_TweenState/TGMX_4_TweenState.yy",},
     {"name":"spr_sparkle","order":34,"path":"sprites/spr_sparkle/spr_sparkle.yy",},

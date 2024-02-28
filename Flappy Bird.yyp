@@ -51,6 +51,7 @@
     {"id":{"name":"Tilt","path":"scripts/Tilt/Tilt.yy",},},
     {"id":{"name":"sound_swoosh","path":"sounds/sound_swoosh/sound_swoosh.yy",},},
     {"id":{"name":"TGMX_Documentation","path":"notes/TGMX_Documentation/TGMX_Documentation.yy",},},
+    {"id":{"name":"spr_new_hiscore","path":"sprites/spr_new_hiscore/spr_new_hiscore.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"TGMX_4_TweenState","path":"scripts/TGMX_4_TweenState/TGMX_4_TweenState.yy",},},
     {"id":{"name":"spr_sparkle","path":"sprites/spr_sparkle/spr_sparkle.yy",},},

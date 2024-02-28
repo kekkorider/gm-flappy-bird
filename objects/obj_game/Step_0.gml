@@ -1,5 +1,10 @@
 flash = max(0, flash - 0.05)
 
+if (score_final > hi_score) {
+	show_new_hiscore = true
+	hi_score = score_final
+}
+
 if obj_bird.state != StateMain
 	exit
 
