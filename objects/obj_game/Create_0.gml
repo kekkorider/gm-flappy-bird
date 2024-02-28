@@ -24,6 +24,10 @@ sparkle_subimg = 0
 sparkle_x = medal_x + random_range(-12, 12)
 sparkle_y = medal_y + random_range(-12, 12)
 
+show_buttons = false
+play_button = new Button(room_width * 0.3, room_height * 0.67, spr_play_btn, game_restart)
+leaderboard_button = new Button(room_width * 0.7, room_height * 0.67 ,spr_leaderboard_btn, game_restart)
+
 // Set random background
 var _bg_layer_id = layer_get_id("Background")
 var _bg_id = layer_background_get_id(_bg_layer_id)

@@ -24,6 +24,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_game","order":3,"path":"objects/obj_game/obj_game.yy",},
     {"name":"StatePrep","order":4,"path":"scripts/StatePrep/StatePrep.yy",},
+    {"name":"Button","order":9,"path":"scripts/Button/Button.yy",},
     {"name":"TGMX_0_MainTweens","order":2,"path":"scripts/TGMX_0_MainTweens/TGMX_0_MainTweens.yy",},
     {"name":"sound_point","order":2,"path":"sounds/sound_point/sound_point.yy",},
     {"name":"obj_ground","order":1,"path":"objects/obj_ground/obj_ground.yy",},
@@ -56,7 +57,9 @@
     {"name":"spr_title","order":28,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"sound_hit","order":1,"path":"sounds/sound_hit/sound_hit.yy",},
     {"name":"spr_medal","order":33,"path":"sprites/spr_medal/spr_medal.yy",},
+    {"name":"spr_play_btn","order":35,"path":"sprites/spr_play_btn/spr_play_btn.yy",},
     {"name":"DrawScore","order":7,"path":"scripts/DrawScore/DrawScore.yy",},
+    {"name":"spr_leaderboard_btn","order":36,"path":"sprites/spr_leaderboard_btn/spr_leaderboard_btn.yy",},
     {"name":"TGMX_1_EasyTweens","order":3,"path":"scripts/TGMX_1_EasyTweens/TGMX_1_EasyTweens.yy",},
     {"name":"spr_gameover","order":16,"path":"sprites/spr_gameover/spr_gameover.yy",},
     {"name":"EaseHeartbeat","order":1,"path":"animcurves/EaseHeartbeat/EaseHeartbeat.yy",},

@@ -1,7 +1,7 @@
 if x < obj_bird.x {
 	if should_trigger_score && triggers_score {
 		with obj_game {
-			score += irandom_range(10, 20)
+			score++
 		}
 		
 		triggers_score = false

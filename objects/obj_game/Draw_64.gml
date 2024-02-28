@@ -13,3 +13,8 @@ if show_medal {
 	draw_sprite_ext(spr_medal, medal_subimg, medal_x, medal_y, 1, 1, 0, c_white, 1)
 	draw_sprite_ext(spr_sparkle, sparkle_subimg, sparkle_x, sparkle_y, 1, 1, 0, c_white, 1)
 }
+
+if show_buttons {
+	play_button.Draw()
+	leaderboard_button.Draw()
+}

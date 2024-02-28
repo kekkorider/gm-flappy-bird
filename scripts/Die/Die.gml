@@ -24,6 +24,8 @@ function Die() {
 					}
 				done
 			}
+			
+			show_buttons = true
 		}
 	done
 }
