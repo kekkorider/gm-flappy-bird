@@ -10,9 +10,20 @@ function Die() {
 	done
 	
 	execute after 2 seconds
-		if (score >= 10) {
-			obj_game.medal_subimg = min(floor(score * 0.1) - 1, 3)
-			obj_game.show_medal = true
+		with obj_game {
+			if score >= 10 {
+				medal_subimg = min(floor(score * 0.1) - 1, 3)
+				show_medal = true
+				
+				execute every 0.18 seconds
+					sparkle_subimg = (sparkle_subimg + 1) mod sprite_get_number(spr_sparkle)
+					
+					if sparkle_subimg == 0 {
+						sparkle_x = medal_x + random_range(-12, 12)
+						sparkle_y = medal_y + random_range(-12, 12)
+					}
+				done
+			}
 		}
 	done
 }

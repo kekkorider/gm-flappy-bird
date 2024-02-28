@@ -4,9 +4,6 @@ randomize()
 score = 0
 score_final = 0
 
-show_medal = false
-metal_subimg = 0
-
 pipes_distance = 160
 pipes_gap = 90
 
@@ -17,6 +14,15 @@ spr_title_alpha = 1
 spr_title_y = room_height * 0.25
 spr_gameover_y = sprite_get_height(spr_gameover) * -1
 spr_board_y = room_height * 1.5
+
+show_medal = false
+medal_subimg = 0
+medal_x = room_width * 0.5 - 64
+medal_y = room_height * 0.5 - 19
+
+sparkle_subimg = 0
+sparkle_x = medal_x + random_range(-12, 12)
+sparkle_y = medal_y + random_range(-12, 12)
 
 // Set random background
 var _bg_layer_id = layer_get_id("Background")

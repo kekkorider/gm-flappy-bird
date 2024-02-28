@@ -34,6 +34,7 @@
     {"name":"sound_swoosh","order":3,"path":"sounds/sound_swoosh/sound_swoosh.yy",},
     {"name":"spr_background","order":10,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"TGMX_4_TweenState","order":6,"path":"scripts/TGMX_4_TweenState/TGMX_4_TweenState.yy",},
+    {"name":"spr_sparkle","order":34,"path":"sprites/spr_sparkle/spr_sparkle.yy",},
     {"name":"Die","order":8,"path":"scripts/Die/Die.yy",},
     {"name":"spr_ground","order":12,"path":"sprites/spr_ground/spr_ground.yy",},
     {"name":"TGMX_3_EventCallbacks","order":5,"path":"scripts/TGMX_3_EventCallbacks/TGMX_3_EventCallbacks.yy",},
